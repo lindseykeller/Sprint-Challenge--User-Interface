@@ -169,21 +169,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.about-section {
+  
+   border-bottom: 1px dotted grey;
+   width: 800px;
+}
+.about-section h1{
+    margin-left: 15px;
+}
 .about-section p{
-    padding: 0px 0px 20px 0px;
-    border-bottom: 1px dotted grey;
+    padding: 0px 0px 20px 15px;
+    
 }
 .about-cards {
     display: flex;
     flex-wrap: wrap;
+   width: 802px;
     justify-content: space-between;
-   margin-left: 15px;
 
 }
 .about-cards div {
-    width: 49%;
-   padding: 30px 0px 30px 0px;
+    width: 47%;
+   padding: 20px 0px 25px 0px;
    border-bottom: 1px dotted grey;
+}
+..about-cards div img{
+    width:100%;
 }
 .about-cards div h2{
     padding-top: 21px;
@@ -195,14 +206,14 @@ footer nav a {
     text-decoration: none;
     color: #000;
    border: 2px solid #000;
-   border-radius: 5px;
+   border-radius: 10px;
    padding: 5px 20px 5px 20px;
 }
 .bottom-cards {
 margin-top: 30px;
 }
 .last-section {
-    margin-left: 15px;
+
     padding: 15px 0px 15px 0px;
 }
 .last-section p {
