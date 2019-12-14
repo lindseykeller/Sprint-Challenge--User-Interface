@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic html gives your markup meaning. This helps the browser understand what is on a webpage instead of only providing the broweser with non-semantic markup such as <div> and <span>. Instead you use new HTML5 tags such as section, article, header, nav and a list of other html tags that provide more detail to the browser as to what the element contains.
+Semantic html gives your markup meaning. This helps the browser understand what is on a webpage instead of only providing the broweser with non-semantic markup such as div and span. Instead you use new HTML5 tags such as section, article, header, nav and a list of other html tags that provide more detail to the browser as to what the element contains.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 Diplay block will not allow other elements to live on the same line as an element with display: block; 
