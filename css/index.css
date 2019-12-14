@@ -65,7 +65,32 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+header {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    width: 75%;
+    align-items: flex-end;
+}
+.nav-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+}
+.page-banner{
+  padding-bottom: 20px;
+}
+nav a {
+    width: 20%;
+    text-align: center;
+    text-decoration:none;
+    color: #000;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +168,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-section p{
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px dotted grey;
+}
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin-left: 15px;
+
+}
+.about-cards div {
+    width: 49%;
+   padding: 30px 0px 30px 0px;
+   border-bottom: 1px dotted grey;
+}
+.about-cards div h2{
+    padding-top: 20px;
+}
+.about-cards div p{
+    padding-bottom: 20px;
+}
+.learn-btn {
+    text-decoration: none;
+    color: #000;
+   border: 2px solid #000;
+   border-radius: 5px;
+   padding: 5px 20px 5px 20px;
+}
+.bottom-cards {
+margin-top: 30px;
+}
+.last-section {
+    margin-left: 15px;
+    padding: 15px 0px 15px 0px;
+}
+.last-section p {
+    padding: 0px 0px 20px 0px;
+}
+.last-section h2 {
+    padding: 20px 0px 0px 0px;
 }
